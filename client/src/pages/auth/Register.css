@@ -1,0 +1,62 @@
+.RegisterWrapper {
+	padding-top: 2%;
+	background: linear-gradient(0deg, rgb(48, 48, 109), #ebe8ff 40%),
+		linear-gradient(90deg, #ebe8ff, rgb(255, 0, 0) 70%);
+	margin-top: 0%;
+	height: fit-content;
+	height: 585px;
+}
+.account-block {
+	padding: 0;
+	background: linear-gradient(0deg, rgb(197, 0, 0), rgba(0, 0, 0, 0) 70%),
+		linear-gradient(90deg, rgb(0, 69, 189), rgba(0, 255, 0, 0) 70%),
+		linear-gradient(180deg, rgb(16, 27, 87), rgba(0, 0, 255, 0) 70%);
+
+	/* background-image: url(https://bootdey.com/img/Content/bg1.jpg); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	position: relative;
+}
+
+.account-block .overlay {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.account-block .account-testimonial {
+	text-align: center;
+	color: rgb(220, 220, 235);
+	position: absolute;
+	margin: 0 auto;
+	padding: 0 1.75rem;
+	bottom: 3rem;
+	left: 0;
+	right: 0;
+}
+
+.text-theme {
+	color: #2f40aa !important;
+}
+
+.btn-theme {
+	background: linear-gradient(225deg, #7b2e2e 0%, #221576 50%) !important ;
+	color: rgb(208, 208, 203);
+	margin: 2%;
+	margin-top: 3%;
+}
+
+.btn-theme:hover {
+	color: aliceblue;
+	background: linear-gradient(225deg, #7b2e2e 0%, #2d18b3 150%) !important ;
+}
+
+.textRegiter {
+	color: white;
+}

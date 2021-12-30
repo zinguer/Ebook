@@ -1,0 +1,48 @@
+.AdminMain {
+	display: flex;
+	flex-direction: column;
+}
+
+.AdminHeader {
+	width: 100%;
+	text-align: center;
+	border: 1px solid black;
+	/* /* position: sticky;
+	top: 0;
+	z-index: 10; */
+}
+
+.AdminBody {
+	display: flex;
+	position: relative;
+}
+
+.AdminSide {
+	display: flex;
+	flex-direction: column;
+	width: 5%;
+	border: 1px solid red;
+	position: relative;
+}
+
+.AdminCenter {
+	position: relative;
+	left: 0%;
+	width: 100%;
+	text-align: center;
+	border: 1px solid rgb(0, 255, 94);
+}
+
+.AdminHeaderList {
+	display: flex;
+	justify-content: space-around;
+}
+
+.AdminHeaderList li {
+	list-style: none;
+}
+
+.ebookTable tbody tr td input {
+	width: 100%;
+	font-size: 100%;
+}

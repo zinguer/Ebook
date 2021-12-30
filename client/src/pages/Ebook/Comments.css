@@ -1,0 +1,103 @@
+.canvasHeader {
+	background: linear-gradient(270deg, #2b35b8, #233385);
+	font-size: 24px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: "brandon-grotesque", "Brandon Grotesque", "Source Sans Pro",
+		"Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue",
+		Arial, sans-serif;
+	color: rgb(212, 212, 224);
+}
+
+.lunchButton {
+	margin: 2%;
+	margin-top: 10%;
+	border-radius: 10px;
+	background: linear-gradient(
+		180deg,
+		rgb(250 130 130) 0%,
+		rgb(250 130 130) 100%
+	);
+	color: white;
+	border: none;
+}
+
+.lunchButton:hover {
+	background: linear-gradient(180deg, #fc8080 0%, #ff4040 100%);
+}
+
+.lunchButton:active {
+	background: #f34a4a;
+}
+
+.addComment {
+	display: flex;
+	width: 100%;
+	padding: 2%;
+	justify-content: center;
+	margin-bottom: 2%;
+	align-items: center;
+}
+.canvasBody {
+	background: linear-gradient(0deg, rgba(140, 48, 48, 1), rgba(0, 0, 0, 0) 60%),
+		linear-gradient(270deg, rgb(82, 113, 165), #d5d7e2 70%);
+	color: #343434;
+}
+
+.commentInput {
+	background: transparent;
+	color: rgb(58, 58, 58);
+	border: 1px;
+	box-shadow: 0px 0px 30px 2px rgb(53, 53, 53);
+	padding: 2%;
+	margin-right: 5%;
+	border-radius: 5px;
+}
+
+.commentInput:hover,
+.commentInput:focus,
+.commentInput:active {
+	box-shadow: 0px 0px 30px 2px rgb(85, 91, 209);
+}
+
+.addComment button {
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	background: linear-gradient(220deg, #fffefe 0%, #419eeb 100%);
+	color: rgb(90, 92, 92);
+	border: 1px;
+	box-shadow: 0px 0px 30px 2px rgb(53, 53, 53);
+}
+
+.addComment button:hover {
+	background: linear-gradient(220deg, #ebe1e1 0%, #81c5fc 100%);
+
+	box-shadow: 0px 0px 1px 1px rgb(85, 91, 209);
+}
+
+.addComment button:active {
+	background: linear-gradient(135deg, #cebbbb 0%, #296494 100%);
+}
+
+.allComments {
+	margin: 3%;
+}
+
+.commentSection {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid grey;
+	margin: 1%;
+}
+
+.commentSection h5 {
+	margin: 15px 0px 0px;
+	color: rgb(21, 20, 20);
+}
+
+.allCOmmentsHeader {
+	margin-left: 17%;
+}
